@@ -1,0 +1,22 @@
+body {
+  border-color: #2f67d6;
+  border-radius: 5px;
+  border-style: solid;
+  font-family: arial;
+  margin: auto;
+  padding: 10px;
+  width: 50%
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+a {
+  color: #2f67d6;
+  text-decoration: none;
+}
