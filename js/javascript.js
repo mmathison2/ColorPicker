@@ -9,7 +9,7 @@ function displayColor (){
   
   function getR () {
   r = Number(prompt("Please enter the R value"));
-  if (r < 1 && r > 0) {
+  if (r <= 1 && r >= 0) {
   return r;
   } else {
   alert("Please enter only numbers between 0 and 1.");
@@ -19,7 +19,7 @@ function displayColor (){
   
   function getG () {
   g = Number(prompt("Please enter the G value"));
-  if (g < 1 && g > 0) {
+  if (g <= 1 && g >= 0) {
   return g;
   } else {
   alert("Please enter only numbers between 0 and 1.");
@@ -29,7 +29,7 @@ function displayColor (){
   
   function getB () {
   b = Number(prompt("Please enter the B value"));
-  if (b < 1 && b > 0) {
+  if (b <= 1 && b >= 0) {
   return b;
   } else {
   alert("Please enter only numbers between 0 and 1.");
