@@ -66,6 +66,8 @@ function displayColor (){
   document.write("<p> &gamma; = " + convertG() + "</p>");
   document.write("<p> &beta; = " + convertB() + "</p>");
   document.write("<p> L = " + convertL() + "</p>");
+  
+  document.getElementById("square").style.backgroudColor = "rgb(" + r + "," + g + "," + b + ")";
 }
 
 displayColor();
